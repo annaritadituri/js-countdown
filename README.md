@@ -28,3 +28,10 @@ Bonus 1
 -Creare una variabile per modificare l'elemento h1 presente nell'HTML
 --Riassegnare alla variabile il valore = sec nel setInterval
 ---Quando entra nel controllo if riassegnare alla variabile la stringa "buon anno"
+
+<!--
+Bonus 2
+-->
+-Creare una variabile legata al pulsante presente nell'HTML
+--Aggiungere un eventListener alla variabile (click)
+---Sul click usare la funzione clearInterval per fermare il countdown e stampare nel DOM "buon anno"
