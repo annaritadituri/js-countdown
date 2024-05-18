@@ -21,3 +21,10 @@ FAR PARTIRE L'AZIONE DOPO UN TOT DI TEMPO
 --Stampare il valore di ogni secondo che passa
 ---Bloccare il timer quando si arriva a 0
 ----Stampare "buon anno"
+
+<!--
+Bonus 1
+-->
+-Creare una variabile per modificare l'elemento h1 presente nell'HTML
+--Riassegnare alla variabile il valore = sec nel setInterval
+---Quando entra nel controllo if riassegnare alla variabile la stringa "buon anno"

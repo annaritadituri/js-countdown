@@ -4,17 +4,22 @@
 
 //DEFINIRE UNA VARIABILE DI TEMPO
 let sec = 10;
+//bonus 1
+const showingCountdown= document.querySelector('h1');
 
 //FAR PARTIRE L'AZIONE DOPO UN TOT DI TEMPO
 let countdown = setInterval(function() {
 
     console.log({sec});
-    sec = sec - 1;
+    showingCountdown.innerHTML = sec;
     if (sec === 0) {
-        clearInterval(countdown);
         console.log({sec});
+        clearInterval(countdown);
         //console.log("Buon Anno!!!");
-        alert("Buon anno!");
+        showingCountdown.innerHTML = "Buon anno!!!";
+        //no bonus
+        //alert("Buon anno!");
     }
+    sec = sec - 1;
 
 }, 1000)
